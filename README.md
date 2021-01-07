@@ -2,6 +2,14 @@
 
 [man](#man)
 
+[ls](#ls)
+
+[pwd](#pwd)
+
+[cd](#cd)
+
+[practice](#practice)
+
 
 ## man
 
