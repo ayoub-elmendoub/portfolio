@@ -1,19 +1,19 @@
 # Basic linux commands
 
-[man](#man)
+- [man](#man)
 
-[ls](#ls)
+- [ls](#ls)
 
-[pwd](#pwd)
+- [pwd](#pwd)
 
-[cd](#cd)
+- [cd](#cd)
 
-[practice](#practice)
+- [practice](#practice)
 
 
 ## man
 
-> **man** _ Stands for manual,used to show you the manual of a command
+### Stands for manual,used to show you the manual of a command
 
 - *man*
 
@@ -90,12 +90,12 @@
 - *cd -*
     <pre>Change to the previous working directory & the writes its name</pre>
 ## Practice
-- Setting up a new user to practice
+- Setting up a new user to practice in a clear environment
 ```
     $ sudo useradd coco
     $ su - coco
 ```
-- Return to the User directory, create a new direc
+- 10. Return to the User directory, create a new direc
 tory using the command 
 "mkdir", delete this directory with "rmdir" then return to the root directory.
 ```
@@ -104,41 +104,41 @@ tory using the command
     $ rmdir myDir
     $ cd /
 ```
-- Create the directory again in the same location without changing the current directory 
+- 11. Create the directory again in the same location without changing the current directory 
 (until further notice). 
 ```
     $ mkdir ~/myDir
 ```
-- Create a file with the “touch” command in the user folder. 
+- 12. Create a file with the “touch” command in the user folder. 
 ```
     $ touch ~/myFile
 ```
-- Copy the file to the directory previously created using the "cp" command, 
+- 13. Copy the file to the directory previously created using the "cp" command, 
 then delete the original file using the "rm" command. 
 ```
     $ cp ~/myFile ~/myDir/myFile
     $ rm ~/myFile
 ```
-- Move the remaining copy to the user directory using "mv", move
+- 14. Move the remaining copy to the user directory using "mv", move
 now to the directory you created and bring the file back there again.
 ```
     $ mv ~/myDir/myFile ~
     $ cd ~/myDir
     $ mv ../ .
 ```
-- Make a copy of your directory and its file, in a new directory, using
+- 15. Make a copy of your directory and its file, in a new directory, using
 of "cp" using the appropriate option, what do you notice?
 ```
     Running just "cp" will not work for copying directories,
     We need to add "-r" option.
         $ cp -r . ../myDir2
 ```
-- Again make a copy of the source directory and its contents inside the last
+- 16. Again make a copy of the source directory and its contents inside the last
 directory created.
 ```
     $ cp -r . ../myDir2/myDir3
 ```
-- Create a symbolic link (shortcut) of the file with the longest tree structure to
+- 17. Create a symbolic link (shortcut) of the file with the longest tree structure to
 the first directory with the command "ln", then delete everything with a single command
 without asking for confirmation
 ``` 
@@ -148,17 +148,17 @@ without asking for confirmation
 
     $ rm -r ~/*
 ```
-- Create a text file containing a few lines without having to use an editor using the
+- 18. Create a text file containing a few lines without having to use an editor using the
 command "cat> file" use the Ctrl-C combination to terminate
 ```
     $ cat > myFile 
 ```
-- Display the contents of the file using the "cat" command while numbering the files.
+- 19. Display the contents of the file using the "cat" command while numbering the files.
 lines.
 ```
     $ cat -n myFile
 ```
-- Display myFile page by page by concatenating the empty lines without breaking the lines
+- 20. Display myFile page by page by concatenating the empty lines without breaking the lines
 long using "more"
 ```
     $ more -s myFile
