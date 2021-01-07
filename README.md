@@ -1,7 +1,7 @@
 # Basic linux commands
 
 - [man](#man)
-
+![](images/1.png)
 - [ls](#ls)
 
 - [pwd](#pwd)
